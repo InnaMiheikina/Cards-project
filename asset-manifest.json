@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cards-project/static/css/main.cfeada25.css",
-    "main.js": "/cards-project/static/js/main.23762ce0.js",
+    "main.css": "/cards-project/static/css/main.07a88ab7.css",
+    "main.js": "/cards-project/static/js/main.35461ce0.js",
     "static/js/787.d2ce132a.chunk.js": "/cards-project/static/js/787.d2ce132a.chunk.js",
     "static/media/checkEmail.svg": "/cards-project/static/media/checkEmail.2c9fd3a893050dac8b8696cfee43f3e5.svg",
     "static/media/logo.svg": "/cards-project/static/media/logo.26f79858862bec92ec0d7f3207d8c084.svg",
@@ -21,12 +21,12 @@
     "static/media/down.svg": "/cards-project/static/media/down.e48898c2c6bc76aba3e0ec01e84c5b9f.svg",
     "static/media/up.svg": "/cards-project/static/media/up.c9f949515da96209b785942f792b68b7.svg",
     "static/media/arrow.svg": "/cards-project/static/media/arrow.19c7bd8ee7d32ca8451f1de3f6803354.svg",
-    "main.cfeada25.css.map": "/cards-project/static/css/main.cfeada25.css.map",
-    "main.23762ce0.js.map": "/cards-project/static/js/main.23762ce0.js.map",
+    "main.07a88ab7.css.map": "/cards-project/static/css/main.07a88ab7.css.map",
+    "main.35461ce0.js.map": "/cards-project/static/js/main.35461ce0.js.map",
     "787.d2ce132a.chunk.js.map": "/cards-project/static/js/787.d2ce132a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cfeada25.css",
-    "static/js/main.23762ce0.js"
+    "static/css/main.07a88ab7.css",
+    "static/js/main.35461ce0.js"
   ]
 }
