@@ -1,0 +1,26 @@
+.wrapper {
+  max-width: 1440px;
+  margin: 40px auto;
+}
+
+.pack {
+  max-width: 1440px;
+  margin: 40px auto;
+}
+
+.main {
+  margin-top: 86px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  div {
+    font-size: 16px;
+    opacity: .5;
+  }
+
+  button {
+    margin-top: 32px;
+    width: 175px;
+  }
+}

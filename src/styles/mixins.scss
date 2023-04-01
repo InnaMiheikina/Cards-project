@@ -1,0 +1,70 @@
+@import './src/styles/variables';
+
+@mixin flexCenterBlock() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin fontFamily() {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+}
+
+@mixin sectionTitle() {
+  @include fontFamily();
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 32px;
+}
+
+@mixin entryFieldTitle() {
+  @include fontFamily();
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+@mixin entryFieldText() {
+  @include fontFamily();
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@mixin minorTitle {
+  @include fontFamily();
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+@mixin buttonTitle() {
+  @include fontFamily();
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
+
+@mixin customFont($FW, $FS, $LH) {
+  @include fontFamily();
+  font-weight: $FW;
+  font-size: $FS;
+  line-height: $LH;
+}
+
+
+
+
+//////////////////////////////
+
+@mixin lineAfterBlock() {
+  content: '';
+  position: absolute;
+  width: 100%;
+  background-color: #d9d9d9;
+  height: 2px;
+}

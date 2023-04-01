@@ -1,0 +1,44 @@
+
+.input {
+  width: 95%;
+  /*height: 36px;*/
+  /*margin-bottom: 10px;*/
+  /*padding-left: 10px;*/
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+
+  /*border: 1px solid #d1d1d1;*/
+  border-radius: 5px;
+  outline: none;
+  
+  background-color: transparent;
+  
+}
+
+.inputWrapper {
+  position: relative;
+
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.superInput {
+  transition: ease-in-out 0.3s;
+}
+
+.errorInput {
+  border: 1px solid #cc0000;
+}
+
+.errorInput:focus {
+  border: 1px solid #cc0000;
+}
+
+.error {
+  position: absolute;
+  top: 26px;
+  left: 0;
+
+  color: #cc0000;
+}

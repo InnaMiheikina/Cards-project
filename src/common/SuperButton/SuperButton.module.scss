@@ -1,0 +1,68 @@
+@import './src/styles/variables';
+
+.button {
+  width: 100%;
+  height: 36px;
+
+  color: #ffffff;
+
+  background: $mainColor;
+  border-radius: $buttonsRadius;
+  transition: ease-in-out 0.1s;
+  box-shadow: 0 4px 18px rgba(54, 110, 255, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.button:hover {
+  transform: scale(1.01);
+}
+
+.disabled {
+  opacity: 0.5;
+}
+
+.secondary {
+  width: 116px;
+  height: 30px;
+
+  color: $mainColor;
+
+  background-color: transparent;
+  border: 1px solid $mainColor;
+}
+
+.default {
+  background: $mainColor;
+  border: none;
+}
+
+.red {
+  background: #cc1439;
+}
+
+.default:hover {
+  background: #0080ff;
+}
+
+.red:hover {
+  background: #ff1a47;
+}
+
+.secondary:hover {
+  background: #e5f0fa;
+}
+
+.default:active {
+  background: #0059b3;
+}
+
+.secondary:active {
+  background: #c9e5ff;
+}
+
+.red:active {
+  background: #b31232;
+}
+
+.button:disabled {
+  opacity: 0.5;
+}

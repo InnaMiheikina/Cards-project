@@ -1,0 +1,58 @@
+@import "./src/styles/mixins";
+@import "./src/styles/variables";
+
+
+.inputsField {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 35px;
+
+  .uploadCover {
+    position: absolute;
+    top: -35px;
+    right: -5px;
+    z-index: 1;
+  }
+
+  .cover {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    img {
+      height: 200px;
+      margin: 10px auto;
+    }
+  }
+
+
+  .inputF {
+    position: relative;
+    @include entryFieldTitle();
+    color: #c1c1c1;
+
+    &:after {
+      @include lineAfterBlock();
+    }
+
+    input {
+      border: none;
+      padding: 5px 0;
+      color: #0D0C0B;
+
+    }
+  }
+
+  .checkboxF {
+    display: flex;
+    align-items: center;
+    width: 130px;
+
+    input {
+      border: 1px solid $mainColor;
+    }
+  }
+
+}
