@@ -36,7 +36,7 @@ const RecoveryPassword = () => {
         from: 'test-front-student <yaromahob@gmail.com>', //<innamiheikina93@gmail.com>
         message: `<div style="background-color: lime; padding: 15px">
                 password recovery link: 
-                 <a href='http://localhost:3000/it-incubator-friday-project/newPassword#$token$'>жми сюда</a></div>`, // хтмп-письмо, вместо $token$ бэк вставит токен
+                 <a href='http://localhost:3000/cards-project/newPassword#$token$'>жми сюда</a></div>`, // хтмп-письмо, вместо $token$ бэк вставит токен
       }
       dispatch(recoveryPasswordTC(data))
       formik.resetForm() //зачистить поле

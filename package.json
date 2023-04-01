@@ -1,6 +1,6 @@
 {
-  "name": "it-incubator-friday-project",
-  "homepage": "https://InnaMiheikina.github.io/it-incubator-friday-project",
+  "name": "cards-project",
+  "homepage": "https://InnaMiheikina.github.io/cards-project",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
