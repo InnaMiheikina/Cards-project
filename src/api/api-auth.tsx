@@ -6,10 +6,10 @@ export const apiAuth = {
     return instance.post<ResponseType>(`auth/login`, data)
   },
   recoveryPassword(data: recoveryPasswordType) {
-    return axios.post<ResponseTypeRecoveryPassword>(`https://neko-back.herokuapp.com/2.0/auth/forgot`, data)
+    return instance.post<ResponseTypeRecoveryPassword>(`auth/forgot`, data)
   },
   newPassword(data: newPasswordType) {
-    return axios.post<ResponseNewPassword>(`https://neko-back.herokuapp.com/2.0/auth/set-new-password`, data)
+    return instance.post<ResponseNewPassword>(`auth/set-new-password`, data)
   },
   logout() {
     return instance.delete(`auth/me`, {})

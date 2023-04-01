@@ -4,14 +4,17 @@
 .signUp {
   h3{
     @include sectionTitle();
-    margin: 35px 0 82px 0;
+    margin: 35px 0 42px 0;
   }
-
+  .test{
+    color: #b7b7b7;
+  }
   form {
     label{
       margin-bottom: 18px;
 
     }
+
 
 
     .checkboxField {
